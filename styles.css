@@ -1,0 +1,126 @@
+.navbar-font {
+  font-family: "Rampart One", cursive;
+  font-size: 20px;
+}
+body {
+  background-color: #79c2d0 !important;
+}
+.navbar-color {
+  background-color: #53a8b6;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #e0e2e2;
+  border-radius: 10px;
+}
+
+.hello {
+  font-family: "Bungee Shade", cursive;
+  font-size: 70px;
+}
+.world {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 100px;
+}
+.intro {
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+}
+#photo {
+  border-radius: 15px;
+  border: 5px solid black;
+}
+
+.about-title {
+  font-family: "Bungee Shade", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: black;
+}
+.about-me {
+  padding: 30px;
+  font-family: "Poiret One", cursive;
+  background-color: #e0e2e2;
+  font-size: 20px;
+  margin-top: 20px;
+  border: 5px solid black;
+  border-radius: 25px;
+}
+.about-photo {
+  border: 2px solid black;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+.emoji-flower {
+  position: relative;
+  bottom: 2px;
+  font-size: 35px;
+}
+.about-emoji {
+  font-size: 25px;
+}
+.contact .social-tag {
+  font-family: "Bungee Shade", cursive;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.contact .phone-photo {
+  border: 2px black solid;
+  border-radius: 20px;
+}
+.contact .social-media {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding: 75px 0px;
+  border-radius: 20px;
+  background-color: #e0e2e2;
+  border: 5px solid black;
+}
+.contact .social-connect {
+  font-size: 25px;
+  font-family: "Poiret One", cursive;
+  font-weight: bolder;
+}
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+.vanderbilt {
+  margin-top: 90px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.umd {
+  margin-top: 90px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.education .education-about {
+  background: #e0e2e2;
+  padding: 0 20 0 20px;
+  text-align: center;
+  margin-top: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: "Poiret One", cursive;
+}
+.vanderbilt-title,
+.umd-title {
+  font-size: 25px;
+  font-family: "Poiret One", cursive;
+}
+.education .coding-certificates {
+  font-family: "Bungee Shade", cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 25px;
+}
