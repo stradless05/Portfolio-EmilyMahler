@@ -124,3 +124,9 @@ body {
   font-weight: bolder;
   margin-top: 25px;
 }
+
+.certificate-image {
+  border: 2px solid black;
+  margin-top: 20px;
+  object-fit: cover;
+}
