@@ -130,3 +130,43 @@ body {
   margin-top: 20px;
   object-fit: cover;
 }
+
+.portfolio .app-title {
+  text-align: center;
+  font-family: "Rampart One", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.portfolio .weather {
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.portfolio .portfolio-about {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-size: 18px;
+  border: 2px black solid;
+  background-color: #e0e2e2;
+  line-height: 2;
+  border-radius: 15px;
+  padding: 10px;
+}
+.portfolio .example-git {
+  display: block;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  border: 2px black solid;
+  background-color: #53a8b6;
+  color: black;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 20px;
+}
