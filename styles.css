@@ -45,7 +45,7 @@ body {
   background-color: #e0e2e2;
   font-size: 20px;
   margin-top: 20px;
-  border: 5px solid black;
+  border: 2px solid black;
   border-radius: 25px;
 }
 .about-photo {
@@ -144,6 +144,7 @@ body {
   border-radius: 10px;
 }
 .portfolio .portfolio-about {
+  margin-left: 25px;
   margin-top: 15px;
   text-align: center;
   font-family: "Poiret One", cursive;
@@ -154,19 +155,67 @@ body {
   border-radius: 15px;
   padding: 10px;
 }
-.portfolio .example-git {
+.portfolio .example-git-weather {
   display: block;
   text-align: center;
   font-family: "Poiret One", cursive;
-  font-size: 20px;
+  font-size: 15px;
   border: 2px black solid;
-  background-color: #53a8b6;
+  background-color: #e0e2e2;
   color: black;
   text-decoration: none;
   border-radius: 15px;
   padding: 20px;
-  margin-top: 30px;
-  margin-left: 120px;
+  margin-top: 10px;
+  margin-left: 150px;
   margin-right: 120px;
   margin-bottom: 20px;
+}
+.portfolio .example-git-responsive {
+  display: block;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font-size: 15px;
+  border: 2px black solid;
+  background-color: #e0e2e2;
+  color: black;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 30px;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 120px;
+  margin-bottom: 20px;
+}
+footer {
+  margin: 60px 0;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: black;
+  background-color: #53a8b6;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 50%;
+  border: black solid 1px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-family: "Rampart One", cursive;
+  font-size: 20px;
+}
+footer .email-link:hover {
+  color: blue;
+}
+footer .social-links a:hover {
+  background-color: #e0e2e2;
+}
+footer .footer-box {
+  background-color: #e0e2e2;
+  padding: 25px;
+  border-radius: 10px;
+  border: black solid 1px;
 }
