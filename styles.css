@@ -94,12 +94,12 @@ body {
   color: black;
 }
 .vanderbilt {
-  margin-top: 90px;
+  margin-top: 60px;
   border: 2px solid black;
   border-radius: 10px;
 }
 .umd {
-  margin-top: 90px;
+  margin-top: 60px;
   border: 2px solid black;
   border-radius: 10px;
 }
@@ -120,9 +120,9 @@ body {
 }
 .education .coding-certificates {
   font-family: "Bungee Shade", cursive;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bolder;
-  margin-top: 25px;
+  margin-top: 75px;
 }
 
 .certificate-image {
@@ -144,7 +144,7 @@ body {
   border-radius: 10px;
 }
 .portfolio .portfolio-about {
-  margin-top: 40px;
+  margin-top: 15px;
   text-align: center;
   font-family: "Poiret One", cursive;
   font-size: 18px;
