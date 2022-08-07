@@ -113,8 +113,7 @@ body {
   font-size: 15px;
   font-family: "Poiret One", cursive;
 }
-.vanderbilt-title,
-.umd-title {
+.school-title {
   font-size: 25px;
   font-family: "Poiret One", cursive;
 }
@@ -142,6 +141,15 @@ body {
   margin-top: 20px;
   border: 2px solid black;
   border-radius: 10px;
+  width: 1200px;
+  height: 800px;
+}
+.portfolio .responsive {
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 1200px;
+  height: 400px;
 }
 .portfolio .portfolio-about {
   margin-left: 25px;
@@ -183,7 +191,7 @@ body {
   border-radius: 15px;
   padding: 30px;
   width: 60%;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-left: 100px;
   margin-right: 120px;
   margin-bottom: 20px;
@@ -230,8 +238,50 @@ footer .footer-box {
   .contact .social-tag {
     font-size: 30px;
   }
+  .education .coding-certificates {
+    font-size: 30px;
+  }
+  .contact .social-connect {
+    font-size: 15px;
+  }
+
+  .portfolio .portfolio-about {
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+  }
+
+  .portfolio .example-git-weather,
+  .portfolio .example-git-responsive {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    width: 100%;
+  }
+  .portfolio .weather {
+    height: 800px;
+    text-align: center;
+  }
+  .portfolio .responsive {
+    height: 500px;
+    text-align: center;
+  }
 }
-.education .certificate-image {
-  width: 275px;
-  height: 175px"
+
+@media only screen and (max-width: 950px) {
+  .portfolio .weather {
+    height: 800px;
+  }
+  .portfolio .portfolio-about {
+    margin-left: 0px;
+  }
+  .portfolio .example-git-weather {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .portfolio .example-git-responsive {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
 }
